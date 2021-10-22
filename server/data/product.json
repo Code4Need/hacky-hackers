@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Adidas",
+        "price": 500,
+        "description": "Its a Shoe",
+        "ratings": 4,
+        "images": [
+            {
+                "public_id": "sasas",
+                "public_url": "asasasasasasasasasasas"
+            }
+        ],
+        "category": "Electronics",
+        "seller": "Sandeep",
+        "stock": 5,
+        "numOfReviews": 2,
+        "reviews": [
+            {
+                "name": "Sandeep",
+                "rating": 5,
+                "comment": "Good"
+            }
+        ],
+        "createdAt": "20202020"
+    }
+]
