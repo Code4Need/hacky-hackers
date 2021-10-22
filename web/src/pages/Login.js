@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import ImageCarousel from '../components/ImageCarousel';
 import * as data from "../data"
 
-const Activity = ({ match }) => {
+const Login = ({ match }) => {
     return (
 
         <Container fluid className="text-light">
@@ -39,4 +39,4 @@ const Activity = ({ match }) => {
     )
 }
 
-export default Activity
+export default Login
