@@ -4,7 +4,6 @@ const connectDatabase = async () => {
     .connect(process.env.DB_LOCAL_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useCreateIndex: true,
     })
     .then((con) => {
       console.log(
