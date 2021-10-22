@@ -1,0 +1,220 @@
+{
+    "homeSlider": {
+        "images": [
+            "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+            "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+            "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+            "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        ],
+        "content": [
+            {
+                "id": 0,
+                "heading": null,
+                "description": null
+            },
+            {
+                "id": 1,
+                "heading": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, tempore?"
+            },
+            {
+                "id": 2,
+                "heading": "If everyone is moving forward together, then success takes care of itself"
+            },
+            {
+                "id": 3,
+                "heading": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, tempore?"
+            }
+        ]
+    },
+    "newsUpdate": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias rerum perspiciatis sunt laboriosam, dolor error quo itaque saepe at.",
+    "info": [
+        {
+            "id": 0,
+            "title": "lorem ipusm",
+            "description": " Lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": 1,
+            "title": "lorem ipusm",
+            "description": " Lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": 2,
+            "title": "lorem ipusm",
+            "description": " Lorem ipsum dolor sit amet, consectetur"
+        }
+    ],
+    "activities": [
+        {
+            "id": 0,
+            "title": "Lorem Ipsum",
+            "quote": "Lorem ipsum dolor sit amet, consectetur",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "images": [
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+            ],
+            "altText": "consectetur"
+        },
+        {
+            "id": 1,
+            "title": "Lorem Ipsum",
+            "quote": "Lorem ipsum dolor sit amet, consectetur",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "images": [
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+            ],
+            "altText": "consectetur"
+        },
+        {
+            "id": 2,
+            "title": "Lorem Ipsum",
+            "quote": "Lorem ipsum dolor sit amet, consectetur",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "images": [
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+            ],
+            "altText": "consectetur"
+        },
+        {
+            "id": 3,
+            "title": "Lorem Ipsum",
+            "quote": "Lorem ipsum dolor sit amet, consectetur",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "images": [
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+                "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+            ],
+            "altText": "consectetur"
+        }
+    ],
+    "mission": [
+        {
+            "description": " Lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "description": " Lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "description": " Lorem ipsum dolor sit amet, consectetur"
+        }
+    ],
+    "googleFormLink": "abc",
+    "awards": [
+        {
+            "id": 0,
+            "date": "December 10, 1970",
+            "heading": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, tempore?",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 1,
+            "date": "December 10, 1970",
+            "heading": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, tempore?",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 2,
+            "date": "December 10, 1970",
+            "heading": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, tempore?",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        }
+    ],
+    "volunteerTestimonials": [
+        {
+            "id": 0,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 1,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        }
+    ],
+    "wellWishers": [
+        {
+            "id": 0,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 1,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        }
+    ],
+    "studentTestimonials": [
+        {
+            "id": 0,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 1,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+            "id": 3,
+            "name": "Name",
+            "description": " Lorem ipsum dolor sit amet, consectetur",
+            "imageURL": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        }
+    ],
+    "admissionOneFormLink": "abcd",
+    "admissionTwoFormLink": "abcd",
+    "journey": [
+        {
+            "id": 0,
+            "content": "avcd "
+        },
+        {
+            "id": 1,
+            "content": "abcd"
+        },
+        {
+            "id": 2,
+            "content": "abcd"
+        }
+    ],
+    "aboutUsSlider": {
+        "images": [
+            "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80"
+        ]
+    }
+}

@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css"
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
+import Navigationbar from './components/Navbar';
+import Footer from './components/Footer';
+
+import Home from './pages/Home';
+import Admission from './pages/Admission';
+import ScrollToTop from './utils/ScrollToTop';
+import Activities from './pages/Activities';
+import Activity from './pages/Activity';
+import AboutUs from './pages/AboutUs';
+import JoinUs from './pages/JoinUs';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navigationbar />
+      <ScrollToTop />
+      <Route path="/" component={Home} exact />
+      <Route path="/admission" component={Admission} exact />
+      <Route path="/activities" component={Activities} exact />
+      <Route path="/activities/:id" component={Activity} exact />
+      <Route path="/about" component={AboutUs} exact />
+      <Route path="/join-now" component={JoinUs} exact />
+      <Footer />
+    </Router>
   );
 }
 
