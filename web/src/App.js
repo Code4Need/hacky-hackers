@@ -6,12 +6,12 @@ import Navigationbar from './components/Navbar';
 import Footer from './components/Footer';
 
 import Home from './pages/Home';
-import Admission from './pages/Admission';
+import Jobs from './pages/Jobs';
+import Companies from './pages/Companies';
 import ScrollToTop from './utils/ScrollToTop';
-import Activities from './pages/Activities';
-import Activity from './pages/Activity';
+import Recruiters from './pages/Recruiters';
+import Login from './pages/Login';
 import AboutUs from './pages/AboutUs';
-import JoinUs from './pages/JoinUs';
 
 function App() {
   return (
@@ -19,11 +19,11 @@ function App() {
       <Navigationbar />
       <ScrollToTop />
       <Route path="/" component={Home} exact />
-      <Route path="/admission" component={Admission} exact />
-      <Route path="/activities" component={Activities} exact />
-      <Route path="/activities/:id" component={Activity} exact />
+      <Route path="/jobs" component={Jobs} exact />
+      <Route path="/recruiters" component={Recruiters} exact />
+      <Route path="/companies" component={Companies} exact />
       <Route path="/about" component={AboutUs} exact />
-      <Route path="/join-now" component={JoinUs} exact />
+      <Route path="/login" component={Login} exact />
       <Footer />
     </Router>
   );

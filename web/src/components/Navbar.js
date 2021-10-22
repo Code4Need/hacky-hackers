@@ -18,19 +18,19 @@ const Navigationbar = () => {
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ms-auto">
                                     <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/">
-                                        Home
+                                        Jobs
                                     </Nav.Link>
-                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/admission">
-                                        Admission
+                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/recruiters">
+                                        Recruiters
                                     </Nav.Link>
-                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/activities">
-                                        Activities
+                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/companies">
+                                        Companies
                                     </Nav.Link>
                                     <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/about">
                                         About Us
                                     </Nav.Link>
-                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/join-now">
-                                        Join Now
+                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/login">
+                                        Login
                                     </Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
