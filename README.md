@@ -1,3 +1,7 @@
+### About the Website
+This website is built to uplift the underrepresented students by providing jobs to students having relevant skills.
+The recruiters can find the perfect match for their company and also the job-seekers can find their job without any bias.
+
 ### Technologies Used
 
 React, HTML, CSS, Bootstrap
