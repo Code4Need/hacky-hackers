@@ -6,25 +6,25 @@ import * as data from "../data"
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
-    { width: 768, itemsToShow: 3 },
+
 ];
 
-const TestimonialVol = () => {
+const Articles = () => {
     return (
         <>
-            <h2 className="text-center fw-bolder pt-3 my-5 text-light">Volunteer Testimonials</h2>
+            <h2 className="text-center fw-bolder pt-3 my-5 text-light">Articles</h2>
 
             <Carousel breakPoints={breakPoints}>
 
-                {data.volunteerTestimonials.map(volunteer =>
-                    <Card key={volunteer.id} style={{ width: "100%" }} className="test-card text-center">
+                {data.studentTestimonials.map(student =>
+                    <Card key={student.id} style={{ width: "100%" }} className="test-card text-center">
                         <div className="test-img">
-                            <img src={volunteer.imageURL} alt="as" />
+                            <img src={student.imageURL} alt="as" />
                         </div>
                         <Card.Body>
-                            <Card.Title className="heading fw-bolder">{volunteer.name}</Card.Title>
+                            <Card.Title className="heading fw-bolder">{student.name}</Card.Title>
                             <Card.Text className="description">
-                                {volunteer.description}
+                                {student.description}
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -35,4 +35,4 @@ const TestimonialVol = () => {
     )
 }
 
-export default TestimonialVol
+export default Articles

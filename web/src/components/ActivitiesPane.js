@@ -8,7 +8,7 @@ import * as data from "../data"
 const ActivitiesPane = () => {
     const history = useHistory();
     return (
-        <Container fluid className="gallery py-5">
+        <Container fluid className="gallery py-5 ">
             <h2 className="text-center fw-bolder">Activities​</h2>
             <hr />
             <Row md={4} sm={3} xs={1} className="gy-4 justify-content-center align-items-center">
