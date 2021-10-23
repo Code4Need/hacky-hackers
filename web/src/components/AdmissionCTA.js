@@ -12,7 +12,7 @@ const AdmissionCTA = () => {
                     </h1>
                 </Col>
                 <Col md={{ span: 3, offset: 2 }}>
-                    <Button variant="light" href={data.googleFormLink} target="_blank">
+                    <Button variant="light" href="/login">
                         Join Now
                     </Button>
                 </Col>

@@ -4,7 +4,6 @@ import InfoPane from "../components/InfoPane"
 import { Container, Row, Col } from 'react-bootstrap';
 import InfiniteSlider from '../components/InfiniteSlider';
 import AdmissionCTA from '../components/AdmissionCTA';
-import ActivitiesPane from '../components/ActivitiesPane';
 import Articles from '../components/Articles';
 
 import * as data from "../data"
@@ -20,7 +19,6 @@ const Home = () => {
                 </Row>
                 <InfiniteSlider />
                 <InfoPane />
-                <ActivitiesPane />
                 <AdmissionCTA />
                 <ComapaniesWithUs />
                 <Articles />
