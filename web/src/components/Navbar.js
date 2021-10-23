@@ -1,6 +1,8 @@
 import React from 'react'
 import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
 import { Link } from 'react-router-dom'
+import '../App.css';
+
 
 const Navigationbar = () => {
 
@@ -8,28 +10,27 @@ const Navigationbar = () => {
         <Container fluid className='navigation'>
             <Row>
                 <Col>
-
                     <Navbar collapseOnSelect bg="dark" variant="dark" expand="sm" fixed="top">
                         <Container>
-                            <Navbar.Brand as={Link} to="/">
-                                <img src="/images/eng-logo.png" className="img-fluid" width="75px" alt="" />
+                           <Navbar.Brand as={Link} to="/">
+                                <img src="/images/2.png" className="img-fluid" width="90px" alt="logo"/>
                             </Navbar.Brand>
+                            <Navbar.Brand as={Link} to="/jobs" className="text-uppercase fw-bolder">
+                              Jobs
+                            </Navbar.Brand>         
+                            <Navbar.Brand as={Link} to="/recruiters" className="text-uppercase fw-bolder">
+                             Recruiters
+                            </Navbar.Brand>         
+                            <Navbar.Brand as={Link} to="/companies" className="text-uppercase fw-bolder">
+                             Companies
+                            </Navbar.Brand>         
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ms-auto">
-                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/">
-                                        Jobs
-                                    </Nav.Link>
-                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/recruiters">
-                                        Recruiters
-                                    </Nav.Link>
-                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/companies">
-                                        Companies
-                                    </Nav.Link>
-                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/about">
+                                    <Nav.Link className="text-uppercase fw-bolder text-white " as={Link} to="/about">
                                         About Us
                                     </Nav.Link>
-                                    <Nav.Link className="text-uppercase fw-bolder" as={Link} to="/login">
+                                    <Nav.Link className="text-uppercase fw-bolder text-primary" as={Link} to="/login">
                                         Login
                                     </Nav.Link>
                                 </Nav>
