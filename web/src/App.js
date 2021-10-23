@@ -9,7 +9,7 @@ import Home from './pages/Home';
 import Jobs from './pages/Jobs';
 import Companies from './pages/Companies';
 import ScrollToTop from './utils/ScrollToTop';
-import Recruiters from './pages/Recruiters';
+  
 import Login from './pages/Login';
 import AboutUs from './pages/AboutUs';
 
@@ -20,7 +20,6 @@ function App() {
       <ScrollToTop />
       <Route path="/" component={Home} exact />
       <Route path="/jobs" component={Jobs} exact />
-      <Route path="/recruiters" component={Recruiters} exact />
       <Route path="/companies" component={Companies} exact />
       <Route path="/about" component={AboutUs} exact />
       <Route path="/login" component={Login} exact />
