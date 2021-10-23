@@ -3,16 +3,12 @@ import ImageCarousel from '../components/ImageCarousel';
 import InfoPane from "../components/InfoPane"
 import { Container, Row, Col } from 'react-bootstrap';
 import InfiniteSlider from '../components/InfiniteSlider';
-import CounterUp from '../components/CounterUp';
 import AdmissionCTA from '../components/AdmissionCTA';
 import ActivitiesPane from '../components/ActivitiesPane';
-import OurMission from '../components/OurMission';
-import TestimonialVol from '../components/TestimonialVol';
-import TestimonialStudents from '../components/TestimonialStudents';
-import Awards from '../components/Awards';
+import Articles from '../components/Articles';
 
 import * as data from "../data"
-import WellWishers from '../components/WellWishers';
+import ComapaniesWithUs from '../components/CompaniesWithUs';
 const Jobs = () => {
     return (
         <>
@@ -24,14 +20,10 @@ const Jobs = () => {
                 </Row>
                 <InfiniteSlider />
                 <InfoPane />
-                <CounterUp />
                 <ActivitiesPane />
                 <AdmissionCTA />
-                <OurMission />
-                <Awards />
-                <TestimonialVol />
-                <WellWishers />
-                <TestimonialStudents />
+                <ComapaniesWithUs />
+                <Articles />
             </Container>
         </>
     )

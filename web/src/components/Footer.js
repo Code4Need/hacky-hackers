@@ -18,7 +18,7 @@ const Footer = () => {
                                 <FontAwesomeIcon className="icon" icon={faPhone} />
                                 <div className="cta-text">
                                     <h4>Call us</h4>
-                                    <span className="fw-bolder">+91 7358308584 / 8428762029 / 9003272086</span>
+                                    <span className="fw-bolder">+91 1234567890</span>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +27,7 @@ const Footer = () => {
                                 <FontAwesomeIcon className="icon" icon={faEnvelopeOpen} />
                                 <div className="cta-text">
                                     <h4>Mail us</h4>
-                                    <span className="fw-bolder">contact2teamkanaa@gmail.com</span>
+                                    <span className="fw-bolder">teamhackyhackers@gmail.com</span>
                                 </div>
                             </div>
                         </div>
@@ -49,13 +49,13 @@ const Footer = () => {
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
 
-                                    <a href="https://www.facebook.com/teamkanaaOffical/" target="_blank" rel="noreferrer">
+                                    <a href="" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon className="icon" icon={faFacebook} />
                                     </a>
-                                    <a href="https://youtube.com/channel/UCXxDN9TaPCmlSrIJlRFePpg" target="_blank" rel="noreferrer">
+                                    <a href="" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon className="icon" icon={faYoutube} />
                                     </a>
-                                    <a href='https://instagram.com/team_kanaa?utm_medium=copy_link' target="_blank" rel="noreferrer">
+                                    <a href='' target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon className="icon" icon={faInstagram} />
                                     </a>
                                 </div>
@@ -68,10 +68,10 @@ const Footer = () => {
                                 </div>
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/admission">Admission</Link></li>
-                                    <li><Link to="/activities">Activities</Link></li>
+                                    <li><Link to="/jobs">Jobs</Link></li>
+                                    <li><Link to="/recruiters">Recruiters</Link></li>
+                                    <li><Link to="/companies">Companies</Link></li>
                                     <li><Link to="/about">About Us </Link></li>
-                                    <li><Link to="/join-now">Join Now</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col text-center">
                             <div className="copyright-text">
-                                <p>Copyright &copy; {year}, All Right Reserved <a href="/">Kaana</a></p>
+                                <p>Copyright &copy; {year}, All Right Reserved <a href="/">Team Hacky Hackers</a></p>
                             </div>
                         </div>
                     </div>

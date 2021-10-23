@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import TestimonialStudents from '../components/TestimonialStudents';
+// import TestimonialStudents from '../components/TestimonialStudents';
 import * as data from "../data"
 const Admission = () => {
     return (
@@ -99,7 +99,7 @@ const Admission = () => {
                         </Card>
                     </Col>
                 </Row>
-                <TestimonialStudents />
+                {/* <TestimonialStudents /> */}
             </Container>
         </>
     )

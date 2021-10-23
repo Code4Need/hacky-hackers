@@ -9,10 +9,10 @@ const breakPoints = [
     { width: 768, itemsToShow: 3 },
 ];
 
-const WellWishers = () => {
+const CompaniesWithUs = () => {
     return (
         <>
-            <h2 className="text-center fw-bolder pt-3 my-5 text-light">Well Wishers </h2>
+            <h2 className="text-center fw-bolder pt-3 my-5 text-light">Companies With Us </h2>
 
             <Carousel breakPoints={breakPoints}>
 
@@ -35,4 +35,4 @@ const WellWishers = () => {
     )
 }
 
-export default WellWishers
+export default CompaniesWithUs
