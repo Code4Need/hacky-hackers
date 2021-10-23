@@ -39,12 +39,12 @@ const Footer = () => {
                             <div className="footer-widget">
                                 <div className="footer-logo">
                                     <a href="/">
-                                        <img src="/images/eng-logo.png" className="img-fluid" alt="logo" />
+                                        <img src="/images/2.png" className="img-fluid" alt="logo" />
                                     </a>
                                 </div>
                                 <div className="footer-text">
-                                    <p> 7/1 Embar naidu 2nd street,
-                                        Villivakkam, Chennai-600049</p>
+                                    <p> 7/1 abc street,
+                                        XYZ, Chennai-600049</p>
                                 </div>
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
