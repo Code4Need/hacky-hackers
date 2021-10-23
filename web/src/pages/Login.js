@@ -1,42 +1,50 @@
-import React from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap';
-import ImageCarousel from '../components/ImageCarousel';
-import * as data from "../data"
+import { useState, useEffect } from "react";
+import Sawo from "sawo";
+import { useHistory } from "react-router-dom"
 
-const Login = ({ match }) => {
+const API_KEY = process.env.REACT_APP_API_KEY;
+
+const Login = () => {
+    const history = useHistory()
+    console.log(API_KEY);
+    const [isUserLoggedIn, setUserLoggedIn] = useState(false);
+    const [payload, setPayload] = useState({});
+
+    useEffect(() => {
+        var config = {
+            containerID: "sawo-container",
+            identifierType: "email",
+            apiKey: API_KEY,
+            onSuccess: (payload) => {
+                console.log("Payload : " + JSON.stringify(payload));
+                setUserLoggedIn(true);
+                setPayload(payload);
+                console.log(payload);
+                if (payload) history.push("/")
+            },
+        };
+        let sawo = new Sawo(config);
+        sawo.showForm();
+    }, []);
+
     return (
+        <div className="containerStyle">
+            <section>
+                <h2 className="title">SAWO React Example App</h2>
+                <h2 className="title">User Logged In : {isUserLoggedIn.toString()}</h2>
 
-        <Container fluid className="text-light">
-            {data.activities.map((activity, idx) => {
-                return (idx === parseInt(match.params.id)) && (<>
-                    <Row className="bg-warning" key={idx}>
-                        <Col>
-                            <h2 className="p-md-5 p-2 fw-bolder text-dark">{activity.title}</h2>
-                        </Col>
-                    </Row>
-                    <Row className="mt-2 justify-content-around align-items-center mb-5" >
-                        <Col md={6} sm={12} >
-                            <ImageCarousel images={activity.images} caption={false} />
-                        </Col>
-                        <Col md={6} sm={12}>
-                            <Card bg={"dark"} text={'white'}>
-                                <Card.Body>
-                                    <Card.Title className="fw-bolder fs-4">{activity.title}</Card.Title>
-                                    {activity.quote &&
-                                        <Card.Subtitle className="mb-2 fs-5 text-muted">"{activity.quote}"</Card.Subtitle>
-                                    }
-                                    <Card.Text className="fs-5">
-                                        {activity.description}
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                </>)
-            })}
-        </Container >
+                {!isUserLoggedIn ? (
+                    <div className="formContainer" id="sawo-container"></div>
+                ) : (
+                    <div className="loggedin">
+                        <h2>User Successful Login</h2>
+                        <div>UserId: {payload.user_id}</div>
+                        <div>Verification Token: {payload.verification_token}</div>
+                    </div>
+                )}
+            </section>
+        </div>
+    );
+};
 
-    )
-}
-
-export default Login
+export default Login;
