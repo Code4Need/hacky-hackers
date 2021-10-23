@@ -1,27 +1,16 @@
 import React from 'react'
-import ImageCarousel from '../components/ImageCarousel';
 import InfoPane from "../components/InfoPane"
-import { Container, Row, Col } from 'react-bootstrap';
-import InfiniteSlider from '../components/InfiniteSlider';
-import AdmissionCTA from '../components/AdmissionCTA';
-import ActivitiesPane from '../components/ActivitiesPane';
+import { Container} from 'react-bootstrap';
 import Articles from '../components/Articles';
+import Subtitle from '../components/Subtitle';
 
-import * as data from "../data"
+
 import ComapaniesWithUs from '../components/CompaniesWithUs';
 const Jobs = () => {
     return (
         <>
-            <Container fluid className="mt-5">
-                <Row>
-                    <Col>
-                        <ImageCarousel caption={true} images={data.homeSlider.images} content={data.homeSlider.content} />
-                    </Col>
-                </Row>
-                <InfiniteSlider />
-                <InfoPane />
-                <ActivitiesPane />
-                <AdmissionCTA />
+            <Container fluid className="mt-5 bg-secondary">
+                <Subtitle/>
                 <ComapaniesWithUs />
                 <Articles />
             </Container>

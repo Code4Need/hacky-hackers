@@ -469,3 +469,6 @@ ul.timeline {
 .theme-color {
   background-color: #ff1493;
 }
+.span{
+  display: flex;
+}
