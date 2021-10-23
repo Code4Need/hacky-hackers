@@ -42,20 +42,20 @@ const Navigationbar = () => {
               >
                 Companies
               </Navbar.Brand>
-                  <Nav.Link
-                    className="text-uppercase fw-bolder text-white "
-                    as={Link}
-                    to="/about"
-                  >
-                    About Us
-                  </Nav.Link>
-                  <Nav.Link
-                    className="text-uppercase fw-bolder text-primary"
-                    as={Link}
-                    to="/login"
-                  >
-                    Login
-                  </Nav.Link>
+              <Navbar.Brand
+                as={Link}
+                to="/about"
+                className="text-uppercase fw-bolder"
+              >
+                About Us
+                </Navbar.Brand>
+              <Navbar.Brand
+                as={Link}
+                to="/login"
+                className="text-uppercase fw-bolder"
+              >
+                 Login
+                </Navbar.Brand>
                 </Nav>
               </Navbar.Collapse>
             </Container>
