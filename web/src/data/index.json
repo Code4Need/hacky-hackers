@@ -27,23 +27,6 @@
         ]
     },
     "newsUpdate": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias rerum perspiciatis sunt laboriosam, dolor error quo itaque saepe at.",
-    "info": [
-        {
-            "id": 0,
-            "title": "lorem ipusm",
-            "description": " Lorem ipsum dolor sit amet, consectetur"
-        },
-        {
-            "id": 1,
-            "title": "lorem ipusm",
-            "description": " Lorem ipsum dolor sit amet, consectetur"
-        },
-        {
-            "id": 2,
-            "title": "lorem ipusm",
-            "description": " Lorem ipsum dolor sit amet, consectetur"
-        }
-    ],
     "activities": [
         {
             "id": 0,
