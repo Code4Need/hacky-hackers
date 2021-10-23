@@ -49,13 +49,13 @@ const Footer = () => {
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
 
-                                    <a href="" target="_blank" rel="noreferrer">
+                                    <a href="facebook.com" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon className="icon" icon={faFacebook} />
                                     </a>
-                                    <a href="" target="_blank" rel="noreferrer">
+                                    <a href="youtube.com" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon className="icon" icon={faYoutube} />
                                     </a>
-                                    <a href='' target="_blank" rel="noreferrer">
+                                    <a href='instagram.com' target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon className="icon" icon={faInstagram} />
                                     </a>
                                 </div>

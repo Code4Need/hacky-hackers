@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
-import Timeline from '../components/Timeline';
 import ImageCarousel from '../components/ImageCarousel';
 import * as data from "../data"
 
@@ -25,7 +24,7 @@ const AboutUs = () => {
                         <Card bg="transparent" text={'white'}>
                             <Card.Body>
                                 <Card.Text className="fs-4">
-                                    We are team Hacky Hackers and have made this project as a part of the HackThisFall 
+                                    We are team Hacky Hackers and have made this project as a part of the HackThisFall
                                     This is our initiaite to bring up the underrepresented through tech
                                     Its a platform where people can make their account and can apply for jobs .
                                     Weeking coding contest will also orgainise here so don't forget to join us.

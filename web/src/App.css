@@ -9,7 +9,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.hide {
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+}
 
 /* SAWO Login Start  */
 
@@ -469,6 +474,6 @@ ul.timeline {
 .theme-color {
   background-color: #ff1493;
 }
-.span{
+.span {
   display: flex;
 }

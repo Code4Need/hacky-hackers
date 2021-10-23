@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import Stack  from '../components/Stack';
+import { Container, Row, Col } from 'react-bootstrap';
+import Stack from '../components/Stack';
 import Articles from '../components/Articles';
 
 const Admission = () => {
@@ -13,10 +13,10 @@ const Admission = () => {
                     </Col>
                 </Row>
                 <h2 className="text-white">Your Company Preferences</h2>
-                <Stack/>
+                <Stack />
                 <Articles />
             </Container>
-            
+
         </>
     )
 }
