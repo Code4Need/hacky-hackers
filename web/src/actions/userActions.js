@@ -125,12 +125,15 @@ export const updatePassword = (passwords) => async (dispatch) => {
 }
 
 // Logout user
-export const logout = () => async (dispatch) => {
+export const logout = () => (dispatch) => {
+    cookie.remove('token', { path: '/' });
+    console.log(cookie.load("token"));
     try {
-        cookie.remove('token')
         dispatch({
             type: LOGOUT_SUCCESS,
-        })
+        });
+        cookie.remove('token', { path: '/' });
+
     } catch (error) {
         dispatch({
             type: LOGOUT_FAIL,

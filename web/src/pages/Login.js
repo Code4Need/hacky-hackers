@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Sawo from "sawo";
 // import { useHistory } from "react-router-dom"
 import { useDispatch } from 'react-redux'
@@ -6,9 +6,17 @@ import { login } from "../actions/userActions";
 import { useSelector } from "react-redux"
 import { Container, Row, Col, Form, Button } from "react-bootstrap"
 
+
 const Login = () => {
     const API_KEY = process.env.REACT_APP_API_KEY;
-    const { user } = useSelector(state => state.auth)
+    const { user } = useSelector(state => state.auth);
+
+    let [firstname, setFirstname] = useState("");
+    let [lastname, setLastname] = useState("");
+    let [title, setTitle] = useState("");
+    let [phonenumber, setPhonenumber] = useState("");
+    let [address, setAddress] = useState("");
+
     const dispatch = useDispatch()
     useEffect(() => {
         var config = {
@@ -25,54 +33,59 @@ const Login = () => {
 
     }, [dispatch, API_KEY]);
 
+
+    const handleSubmit = () => {
+
+    }
     return (
         <div className="containerStyle">
             <h2 className={"title"}>{user ? "Update Profile" : "Login"}</h2>
             {user && <>
-                <Container className="w-md-50">
+                <Container style={{ maxWidth: "768px" }}>
                     <Form>
                         <Row className="mb-3">
                             <Form.Group as={Col} controlId="formGridEmail">
                                 <Form.Label>Email</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
+                                <Form.Control type="email" placeholder="Enter email" value={user.email} readOnly />
                             </Form.Group>
                         </Row>
-
-                        <Form.Group className="mb-3" controlId="formGridAddress1">
-                            <Form.Label>Address</Form.Label>
-                            <Form.Control placeholder="1234 Main St" />
-                        </Form.Group>
-
-                        <Form.Group className="mb-3" controlId="formGridAddress2">
-                            <Form.Label>Address 2</Form.Label>
-                            <Form.Control placeholder="Apartment, studio, or floor" />
-                        </Form.Group>
-
+                        <Row className="mb-3">
+                            <Form.Group as={Col} controlId="formGridEmail">
+                                <Form.Label>First Name</Form.Label>
+                                <Form.Control type="text" value={firstname} onChange={(e) => setFirstname(e.target.value)} />
+                            </Form.Group>
+                        </Row>
+                        <Row className="mb-3">
+                            <Form.Group as={Col} controlId="formGridEmail">
+                                <Form.Label>Last Name</Form.Label>
+                                <Form.Control type="text" value={lastname} onChange={(e) => setLastname(e.target.value)} />
+                            </Form.Group>
+                        </Row>
+                        <Row className="mb-3">
+                            <Form.Group as={Col} controlId="formGridEmail">
+                                <Form.Label>Title</Form.Label>
+                                <Form.Control type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+                            </Form.Group>
+                        </Row>
                         <Row className="mb-3">
                             <Form.Group as={Col} controlId="formGridCity">
-                                <Form.Label>City</Form.Label>
-                                <Form.Control />
-                            </Form.Group>
-
-                            <Form.Group as={Col} controlId="formGridState">
-                                <Form.Label>State</Form.Label>
-                                <Form.Select defaultValue="Choose...">
-                                    <option>Choose...</option>
-                                    <option>...</option>
-                                </Form.Select>
-                            </Form.Group>
-
-                            <Form.Group as={Col} controlId="formGridZip">
-                                <Form.Label>Zip</Form.Label>
-                                <Form.Control />
+                                <Form.Label>Phone Number</Form.Label>
+                                <Form.Control type="text" value={phonenumber} onChange={(e) => setPhonenumber(e.target.value)} />
                             </Form.Group>
                         </Row>
-
-                        <Form.Group className="mb-3" id="formGridCheckbox">
-                            <Form.Check type="checkbox" label="Check me out" />
-                        </Form.Group>
-
-                        <Button variant="primary" type="submit">
+                        <Row className="mb-3">
+                            <Form.Group as={Col} controlId="formGridEmail">
+                                <Form.Label>Address</Form.Label>
+                                <Form.Control type="text" value={address} onChange={(e) => setAddress(e.target.value)} />
+                            </Form.Group>
+                        </Row>
+                        <Row className="mb-3">
+                            <Form.Group as={Col} controlId="formGridEmail">
+                                <Form.Label>Address</Form.Label>
+                                <Form.Control type="text" value={address} onChange={(e) => setAddress(e.target.value)} />
+                            </Form.Group>
+                        </Row>
+                        <Button variant="primary" type="submit" onClick={() => handleSubmit()}>
                             Submit
                         </Button>
                     </Form>
@@ -82,7 +95,7 @@ const Login = () => {
             <div className={user ? "hide" : "show"}>
                 <div className={"formContainer"} id="sawo-container"></div>
             </div>
-        </div>
+        </div >
 
     );
 };

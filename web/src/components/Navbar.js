@@ -2,7 +2,6 @@ import React from 'react';
 import { Navbar, Container, Nav, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from "react-redux"
-import Button from '@restart/ui/esm/Button';
 import { logout } from "../actions/userActions"
 const Navigationbar = () => {
   const { user } = useSelector(state => state.auth)
@@ -54,10 +53,10 @@ const Navigationbar = () => {
                   </Navbar.Brand>
                   {
                     user ?
-
                       <Navbar.Brand
                         onClick={() => dispatch(logout())}
                         className="text-uppercase fw-bolder light"
+                        style={{ cursor: "pointer" }}
                       >
                         Logout
                       </Navbar.Brand>

@@ -76,10 +76,23 @@ section {
 .btn.focus,
 .btn:active.focus,
 .btn:active:focus,
-.btn:focus {
+.btn:focus,
+input:hover,
+input:active,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+select:focus,
+label:focus {
+  -webkit-appearance: none;
   outline: none !important;
-  box-shadow: none;
+  box-shadow: none !important;
 }
+
 .btn:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
